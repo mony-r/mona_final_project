@@ -1,0 +1,47 @@
+.form-container {
+
+    width: 40vw;
+    justify-content: center;
+    background-color: #f4f4f4;
+    margin: 30px;
+    padding: 50px;
+}
+
+.feedback-form {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.parent-container{
+    display: flex;
+    justify-content: center;
+    padding:  20px;
+}
+.form-subtitle{
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.rating-selector {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.rating-star {
+    color: gray;
+    transition: color 0.3s;
+}
+
+.rating-star.selected {
+    color: gold;  /* Color for selected stars */
+}
+.rating-number {
+    font-size: 30px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.rating-number.selected {
+    font-weight: bold;
+    color: blue;  /* Color for selected numbers */
+}
